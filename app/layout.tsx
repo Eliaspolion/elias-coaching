@@ -1,13 +1,7 @@
-import "./globals.css";
+"use client";
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  );
+import ElitePerformanceCoachingWebsite from "../ElitePerformanceCoachingWebsite";
+
+export default function Page() {
+  return <ElitePerformanceCoachingWebsite />;
 }
