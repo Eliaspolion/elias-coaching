@@ -1,3 +1,22 @@
+"use client";
+
+import {
+  Activity,
+  ArrowRight,
+  BarChart3,
+  Brain,
+  Calendar,
+  CheckCircle2,
+  ChevronRight,
+  Dumbbell,
+  HeartPulse,
+  LineChart,
+  Menu,
+  Target,
+  Timer,
+  X,
+} from "lucide-react";
+import { useMemo, useState } from "react";
 import {
   Activity,
   ArrowRight,
