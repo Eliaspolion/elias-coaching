@@ -1,1 +1,4 @@
-Unsupported Media Type
+/** @type {import('next').NextConfig} */
+const nextConfig = {};
+
+export default nextConfig;
